@@ -56,4 +56,4 @@ jobs:
     needs: [build-app, build-db]
     runs-on: macos-latest
     steps:
-      - run: echpo "Hello MacOS"
+      - run: echo "Hello MacOS"
